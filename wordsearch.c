@@ -81,4 +81,22 @@ void searchPuzzle(char** arr, char* word) {
     // different message as shown in the sample runs.
     // Your implementation here...
 
+    for (int i = 0; i < bSize; i++) {
+
+        for (int j = 0; j < bSize; j++) {
+
+            for (int k = 0; k < bSize; k++) {
+
+                if (*(*(arr + j) + k) == *(word + i)) {
+
+                    
+
+                }
+
+            }
+
+        }
+
+    }
+
 }
